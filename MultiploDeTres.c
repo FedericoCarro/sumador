@@ -7,7 +7,7 @@ int main(void)
     p("Ingrese un numero: ");
     s("%d", &num1);
 
-    if (num1 % 3 == 0)
+    if ((num1 % 3) == 0)
     {
         p("el numero %d es multiplo de 3", num1);
     }

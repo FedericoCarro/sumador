@@ -4,16 +4,16 @@
 int main(void)
 {
     int num1;
-    p("Ingrese un numero: ");
+    p("Ingrese un n%cmero: ",163);
     s("%d", &num1);
 
     if ((num1 % 3) == 0)
     {
-        p("el numero %d es multiplo de 3", num1);
+        p("el n%cmero %d es m%cltiplo de 3",163, num1,163);
     }
     else
     {
-        p("el numero %d NO es multiplo de 3", num1);
+        p("el n%cmero %d NO es m%cltiplo de 3",163, num1,163);
     }
 
     return 0;

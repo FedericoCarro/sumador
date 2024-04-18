@@ -3,7 +3,7 @@
 #define s scanf
 int main(void)
 {
-    int num1, num2, resultado;
+    int num1, num2/*,resultado*/;
     num1 = 1;
     num2 = 2;
     p("Ingrese un numero: ");
